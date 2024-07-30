@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Charger le modèle
-model = joblib.load('house_price_model.pkl')
+model = joblib.load('best_model.pkl')
 
 app = Flask(__name__)
 
